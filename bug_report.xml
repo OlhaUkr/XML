@@ -1,1 +1,17 @@
-
+<bugreport>
+  <title>Error when launching the application</title>
+  <description>An error occurs when launching the application</description>
+  <severity>high</severity>
+  <steps>
+    <step>Open the application</step>
+    <step>Enter the login and password</step>
+    <step>Click on the "Login" button</step>
+    <step>The error appears on the screen</step>
+  </steps>
+  <expected_result>The application should launch successfully and navigate to the main screen</expected_result>
+  <actual_result>The application crashes with an error</actual_result>
+  <attachments>
+    <attachment>logs.txt</attachment>
+    <attachment>screenshot.png</attachment>
+  </attachments>
+</bugreport>
